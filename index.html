@@ -1,26 +1,46 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.png">
     <title>Portfolio</title>
 </head>
 <body>
-     <h1>Welcome to my GitHub portfolio.</h1>
-        <p>Here, you can explore a collection some of my academic and personal projects, including Python and Matlab scripts, Arduino projects, and even Excel work. Although the datasets I used are very diverse, these projects showcase my technical skills and problem-solving abilities. Feel free to take a look and contact me if you want to give me feedback or if you have a cool project we can team up on.</p>
-        <h2>Contents</h2>
-        <h3>Stars Classification:</h3>
-        <p>In this project I go through an astronomical dataset containing different features that describe neutron stars. I performed data cleaning, descriptive analysis, basic statistics, cool visualizations, PCA, and predictive analysis using different unsupervised models for classification.</p>
-        <p align="center"><img src="https://github.com/Barryjuait/Portfolio/blob/main/Images/Pulsar_Classification.png" width="500" height="250"></p>
-        <p><a href="https://colab.research.google.com/github/Barryjuait/Barryjuait/blob/master/Personal%20Projects/HTRU2_analysis.ipynb">View project on Google Colab</a></p>
-        <h3>Boston Housing Value:</h3>
-        <p>Here I used different supervised models to estimate the price of properties in Boston using multivariate data. I performed feature selection and used different metrics to evaluate the performance of the models tested.</p>
-        <p align="center"><img src="https://github.com/Barryjuait/Portfolio/blob/main/Images/Boston.png" width="500" height="250"></p>
-        <p><a href="https://colab.research.google.com/github/Barryjuait/Barryjuait/blob/master/Personal%20Projects/Estimating_Prices_in_Boston_with_Supervised_Models.ipynb">View project on Google Colab</a></p>
-        <h3>Fake News Detection:</h3>
-        <p>I developed a platform to classify News (from american Press newspapers) as Fake or Not Fake. The text was explored and organised accordingly to work with different supervised models for classification. The models were compared in terms of Accuracy, Loss and F1.</p>
-        <p align="center"><img src="https://github.com/Barryjuait/Portfolio/blob/main/Images/FakeNews.png" width="600" height="250"></p>
-        <p><a href="https://colab.research.google.com/github/Barryjuait/Barryjuait/blob/master/Personal%20Projects/Fake_News_Detection_from_Press_Analysis.ipynb">View project on Google Colab</a></p>
-                
+    <header>
+        <h1>Welcome to my GitHub portfolio.</h1>
+        <nav>
+            <ul>
+                <li><a href="#stars-classification">Stars Classification</a></li>
+                <li><a href="#boston-housing-value">Boston Housing Value</a></li>
+                <li><a href="#fake-news-detection">Fake News Detection</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Introduction</h2>
+            <p>Here, you can explore a collection some of my academic and personal projects, including Python and Matlab scripts, Arduino projects, and even Excel work. Although the datasets I used are very diverse, these projects showcase my technical skills and problem-solving abilities. Feel free to take a look and contact me if you want to give me feedback or if you have a cool project we can team up on.</p>
+        </section>
+
+        <section id="stars-classification">
+            <h2>Stars Classification</h2>
+            <p>In this project I go through an astronomical dataset containing different features that describe neutron stars. I performed data cleaning, descriptive analysis, basic statistics, cool visualizations, PCA, and predictive analysis using different unsupervised models for classification.</p>
+            <figure>
+                <img src="https://github.com/Barryjuait/Portfolio/blob/main/Images/Pulsar_Classification.png" alt="Pulsar Classification" width="500" height="250">
+                <figcaption>Pulsar Classification</figcaption>
+            </figure>
+            <p><a href="https://colab.research.google.com/github/Barryjuait/Barryjuait/blob/master/Personal%20Projects/HTRU2_analysis.ipynb">View project on Google Colab</a></p>
+        </section>
+
+        <section id="boston-housing-value">
+            <h3>Boston Housing Value:</h3>
+            <p>Here I used different supervised models to estimate the price of properties in Boston using multivariate data. I performed feature selection and used different metrics to evaluate the performance of the models tested.</p>
+            <p align="center"><img src="https://github.com/Barryjuait/Portfolio/blob/main/Images/Boston.png" width="500" height="250"></p>
+            <p><a href="https://colab.research.google.com/github/Barryjuait/Barryjuait/blob/master/Personal%20Projects/Estimating_Prices_in_Boston_with_Supervised_Models.ipynb">View project on Google Colab</a></p>
+        </section>
+    </main>
 </body>
-</html>
+            
